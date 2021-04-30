@@ -9,6 +9,9 @@
 // System.debug('Hello World!');
 // System.debug('My name is ' + tempvar);
 
+System.debug('name of the animal???' + AnimalLocator.getAnimalNameById(1));
+
+
 Http http = new Http();
 HttpRequest request = new HttpRequest();
 request.setEndpoint('https://th-apex-http-callout.herokuapp.com/animals');
